@@ -1,0 +1,15 @@
+{
+  "name": "performanceserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro -p 8181 server.js"
+  },
+  "author": "naim miah",
+  "license": "ISC",
+  "devDependencies": {
+    "micro": "^9.3.3"
+  }
+}

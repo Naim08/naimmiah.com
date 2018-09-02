@@ -1,0 +1,17 @@
+{
+  "name": "naim-site",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start",
+    "perf-server": "cd performanceServer && npm start",
+    "dev": "concurrently --kill-others-on-fail \"npm run-script perf-server\" \"npm run-script client\""
+  },
+  "author": "naim miah",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
