@@ -23,8 +23,8 @@
     "styled-components": "^3.4.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "export NODE_PATH=src && react-scripts start",
+    "build": "rexport NODE_PATH=src && eact-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
